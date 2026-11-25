@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Price product tracking",
+  "version": "1.0",
+  "description": "Extension that tracked prices on websites once a day.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"]
+}
